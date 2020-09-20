@@ -1,0 +1,9 @@
+@import "../shared/shared-styles.css";
+.l-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.l-main {
+    flex: 1 0 100%;
+}

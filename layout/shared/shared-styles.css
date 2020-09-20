@@ -1,0 +1,10 @@
+@import "../../shared/shared-tyles.css";
+
+.l-header {
+    height: var(--header--height);
+    background-color: var(--header-bg-color);
+}
+.l-footer {
+    height: var(--footer--height);
+    background-color: var(--footer--bg-color);
+}

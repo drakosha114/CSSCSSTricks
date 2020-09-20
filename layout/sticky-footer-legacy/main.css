@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.l-header {
+    height: 200px;
+}
+.l-header,
+.l-footer {
+    background-color: brown;
+}
+
+html,
+body,
+.l-screen {
+    height: 100%;
+}
+.l-content {
+    min-height: 100%;
+    margin-bottom: -200px;
+}
+.l-main {
+    padding-bottom: 200px;
+}
+.l-footer {
+    height: 200px;
+}

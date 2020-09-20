@@ -1,32 +1,4 @@
-/*
-    Page styles
- */
-:root {
-    --header-bg-color: brown;
-    --footer--bg-color: var(--header-bg-color);
-    --header--height: 100px;
-    --footer--height: var(--header--height);
-    --primary--sidebar--bg--color: azure;
-    --secondary--sidebar--bg--color: darkgray;
-
-}
-* {
-    box-sizing: border-box;
-}
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.l-header {
-    height: var(--header--height);
-    background-color: var(--header-bg-color);
-}
-.l-footer {
-    height: var(--footer--height);
-    background-color: var(--footer--bg-color);
-}
+@import "../shared/shared-styles.css";
 .l-main__sidebar--primary {
     background-color: var(--primary--sidebar--bg--color);
 }
